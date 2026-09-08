@@ -15,7 +15,7 @@ Time: Wednesdays 14:15 - 17:00 with the following topics:
 * 14/10 Case studies and participant project plans
 * 21/10 Participant project presentations
 
-Location: EL43
+Location: EL43 (Linsen, EDIT building)
 
 ## Course material (to be completed during the course)
 
@@ -26,6 +26,9 @@ Dedukti: https://github.com/Deducteam/Dedukti
 Grammatical Framework: https://www.grammaticalframework.org/ 
 
 Autoformalization: https://arxiv.org/abs/2601.03298 
+
+Mohan Ganesalingam, [The Language of Mathematics](https://link.springer.com/book/10.1007/978-3-642-37012-0)
+
 
 ## Course description
 
