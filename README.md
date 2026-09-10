@@ -17,6 +17,30 @@ Time: Wednesdays 14:15 - 17:00 with the following topics:
 
 Location: EL43 (Linsen, EDIT building)
 
+## Contents and tasks for each session (to be completed as the course goes on)
+
+The tasks listed should be possible after each session. They prepare you for the next session and should be at least looked at before the beginning of the next session.
+
+### 9/9 Introduction
+- install Informath binary from https://github.com/GrammaticalFramework/informath/releases/tag/informath-0.4
+- test with examples listed in https://github.com/GrammaticalFramework/informath#some-test-datasets as well as your own tests; take a look at the Dedukti files that they convert
+- try to make some tests of your own by modifying code in those files; some of this is intuitive, but the full details will be given later
+- read the arXiv paper https://arxiv.org/abs/2606.16893 at least superficially (most parts will be covered more thoroughly later)
+
+### 16/9 Dedukti
+- install Dedukti from https://github.com/Deducteam/Dedukti 
+- read the user manual and tutorial at the same repository
+- read the Dedukti article from https://arxiv.org/abs/2311.07185 at least superficially to see what is in it
+- start writing some Dedukti code for your course project or other things that interest you, as well as a symbol table for informalizing it
+- optionally, install Lambdapi from https://github.com/Deducteam/lambdapi and learn to use it, to give an easier method to write Dedukti code manually
+
+### 23/9 Linguistics
+- install GF from https://www.grammaticalframework.org/
+- install the GF RGL from https://github.com/GrammaticalFramework/gf-rgl 
+- start extending the Informath lexicon if needed for your project
+
+
+
 ## Course material (to be completed during the course)
 
 Informath: https://github.com/GrammaticalFramework/informath 
@@ -24,6 +48,7 @@ Informath: https://github.com/GrammaticalFramework/informath
 Dedukti: https://github.com/Deducteam/Dedukti
 
 Grammatical Framework: https://www.grammaticalframework.org/ 
+- for help: Informath channel in https://discord.com/invite/EvfUsjzmaz 
 
 Autoformalization: https://arxiv.org/abs/2601.03298 
 
