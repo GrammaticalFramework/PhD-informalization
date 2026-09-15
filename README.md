@@ -11,11 +11,12 @@ Time: Wednesdays 14:15 - 17:00 with the following topics:
 * 16/9 Formalizing mathematics in Dedukti
 * 23/9 GF and the linguistics of mathematics 
 * 30/9 Informath under the hood
-* 7/10 Autoformalization with Large Language Models
-* 14/10 Case studies and participant project plans
-* 21/10 Participant project presentations
+* (7/10 no class)
+* 14/10 Autoformalization with Large Language Models (Josef)
+* 21/10 Case studies and participant project plans
+* Date TBA Participant project presentations
 
-Location: EL43 (Linsen, EDIT building)
+Location: first hour in 8103 (behind the lunch room), continuing from 15:15 in EL43 (Linsen, EDIT building)
 
 ## Contents and tasks for each session (to be completed as the course goes on)
 
@@ -26,6 +27,7 @@ The tasks listed should be possible after each session. They prepare you for the
 - test with examples listed in https://github.com/GrammaticalFramework/informath#some-test-datasets as well as your own tests; take a look at the Dedukti files that they convert
 - try to make some tests of your own by modifying code in those files; some of this is intuitive, but the full details will be given later
 - read the arXiv paper https://arxiv.org/abs/2606.16893 at least superficially (most parts will be covered more thoroughly later)
+- the same applies to the slides on the [Informath Deployment Stack](https://docs.google.com/presentation/d/16Ka8m266xKUX2MDcwRKxshIVpvFUtfLFijNiLph7g5I/edit?usp=sharing)
 
 ### 16/9 Dedukti
 - install Dedukti from https://github.com/Deducteam/Dedukti 
