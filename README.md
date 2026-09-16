@@ -35,6 +35,7 @@ The tasks listed should be possible after each session. They prepare you for the
 - read the Dedukti article from https://arxiv.org/abs/2311.07185 at least superficially to see what is in it
 - start writing some Dedukti code for your course project or other things that interest you, as well as a symbol table for informalizing it
 - optionally, install Lambdapi from https://github.com/Deducteam/lambdapi and learn to use it, to give an easier method to write Dedukti code manually
+- [Dedukti slides by Amélie Ledein](https://drive.google.com/file/d/1bbOyqbXzGWVe90a03WUy2dTzLf6YozhS/view?usp=sharing), among other things showing the mappings between Dedukti and other formalisms 
 
 ### 23/9 Linguistics
 - install GF from https://www.grammaticalframework.org/
