@@ -1,0 +1,47 @@
+Set : Type.
+Elem : Set -> Type.
+
+Prop : Type.
+Proof : Prop -> Type.
+
+and : Prop -> Prop -> Prop.
+or : Prop -> Prop -> Prop.
+if : Prop -> Prop -> Prop.
+iff : Prop -> Prop -> Prop.
+not : Prop -> Prop.
+
+forall : (A : Set) -> (B : Elem A -> Prop) -> Prop.
+exists : (A : Set) -> (B : Elem A -> Prop) -> Prop.
+
+N : Set.
+0 : Elem N.
+s : Elem N -> Elem N.
+
+plus : Elem N -> Elem N -> Elem N.
+
+def 1 : Elem N := s 0.
+def 2 : Elem N := s 1.
+
+Even : Elem N -> Prop.
+
+ax1 : Proof (Even 0).
+
+Odd : Elem N -> Prop.
+
+Equal : Elem N -> Elem N -> Prop.
+
+ax2 : (n : Elem N) -> Proof (Even n) -> Proof (Odd (s n)).
+
+thm1 : (m : Elem N) -> (n : Elem N) -> Proof (Equal m n) -> Proof (Equal n m).
+
+thm2 : (m : Elem N) -> (n : Elem N) -> Proof (if (and (Odd m) (Odd n)) (Even (plus m n))).
+
+thm3 : Proof (forall N (n => or (Even n) (Odd n))).
+
+thm4 : Proof (forall N (n => not (and (Even n) (Odd n)))).
+
+thm5 : Proof (not (exists N (n => (and (Even n) (Odd n))))).
+
+Divide : Elem N -> Elem N -> Prop.
+
+thm6 : (m : Elem N) -> (n : Elem N) -> Proof (Divide m n) -> Proof (Divide m (plus n n)).

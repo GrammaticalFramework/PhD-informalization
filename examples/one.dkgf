@@ -1,0 +1,22 @@
+Set : "set"
+Prop : "proposition"
+
+and : CoreAndProp
+or : CoreOrProp
+if : CoreIfProp
+forall : CoreAllProp
+exists : CoreExistProp
+not : CoreNotProp
+iff : CoreIffProp
+
+
+N : "number" | $N$
+s : "the successor of X" | $#1'$
+plus : "the sum of X and Y" | $#1 + #2$
+Even : "X is even"
+Odd : "X is odd"
+Equal : "X is equal to Y" | $#1 = #2$
+
+Divide : "X divides Y" | "#2 is divisible by #1" | $#1 \mid #2$
+
+
